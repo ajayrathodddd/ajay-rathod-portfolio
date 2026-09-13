@@ -1,3 +1,4 @@
+
 function App() {
   return (
     <div className="portfolio">
@@ -37,25 +38,31 @@ function App() {
           <div className="availability">
             <span></span>Available for opportunities
           </div>
+
           <p className="hero-small">✦ Full-Stack Developer</p>
+
           <h1>
             Building modern
             <br />
             <span>web & AI</span> experiences.
           </h1>
+
           <p className="hero-description">
             I'm Ajay Ravi Rathod, a Full-Stack Developer focused on building
             practical web applications and AI-powered solutions using modern
             technologies.
           </p>
+
           <div className="hero-buttons">
             <a href="#projects" className="primary-btn">
               View My Projects →
             </a>
+
             <a href="#contact" className="secondary-btn">
               Contact Me
             </a>
           </div>
+
           <div className="social-links">
             <a
               href="https://github.com/ajayrathodddd"
@@ -85,8 +92,10 @@ function App() {
                 <span></span>
                 <span></span>
               </div>
+
               <span>developer.js</span>
             </div>
+
             <div className="code-content">
               <p>
                 <span className="purple">const</span>{" "}
@@ -113,9 +122,12 @@ function App() {
 
               <p>{"}"}</p>
 
-              <p className="code-comment">// Building real-world software 🚀</p>
+              <p className="code-comment">
+                // Building real-world software 🚀
+              </p>
             </div>
           </div>
+
           <div className="floating-icon">{"</>"}</div>
         </div>
       </main>
@@ -123,11 +135,13 @@ function App() {
       {/* ================= ABOUT ================= */}
       <section id="about" className="section">
         <p className="section-label">01 — ABOUT</p>
+
         <h2>
           Turning ideas into
           <br />
           working software.
         </h2>
+
         <p className="section-text">
           I enjoy developing full-stack applications that solve practical
           problems. My work combines responsive frontend interfaces, backend
@@ -139,7 +153,9 @@ function App() {
       {/* ================= SKILLS ================= */}
       <section id="skills" className="section">
         <p className="section-label">02 — SKILLS</p>
+
         <h2>Technologies I work with.</h2>
+
         <div className="skills-grid">
           <div className="skill-card">
             <h3>Frontend</h3>
@@ -182,15 +198,18 @@ function App() {
         <p className="section-label">03 — PROJECTS</p>
 
         <h2>Featured projects.</h2>
+
         <div className="projects-grid">
-          {/* PROJECT 1 */}
+
+          {/* ================= PROJECT 1 ================= */}
           <article className="project-card featured">
             <span>01</span>
+
             <h3>AI CareerPilot</h3>
 
             <p>
-              AI-powered career development platform designed to help users with
-              career preparation, resume analysis, job matching, skill-gap
+              AI-powered career development platform designed to help users
+              with career preparation, resume analysis, job matching, skill-gap
               analysis, learning roadmaps and interview preparation.
             </p>
 
@@ -199,6 +218,8 @@ function App() {
             </div>
 
             <div className="project-actions">
+
+              {/* GitHub */}
               <a
                 href="https://github.com/ajayrathodddd/AI-CareerPilot"
                 target="_blank"
@@ -207,36 +228,64 @@ function App() {
               >
                 GitHub →
               </a>
+
+              {/* Live Demo */}
+              <a
+                href="https://ai-careerpilot-ochre.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Live Demo →
+              </a>
+
             </div>
           </article>
 
-          {/* PROJECT 2 */}
+          {/* ================= PROJECT 2 ================= */}
           <article className="project-card">
             <span>02</span>
+
             <h3>Rathod E-Commerce Platform</h3>
 
             <p>
-              Full-stack e-commerce application with product browsing, shopping
-              cart, checkout and order-management workflows.
+              Full-stack e-commerce application with product browsing,
+              shopping cart, checkout and order-management workflows.
             </p>
 
             <div className="tech">
               React.js · Django · Redux · REST APIs · SQLite
             </div>
 
-            <a
-              href="https://github.com/ajayrathodddd/rathod-ecommerce-platform"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
+            <div className="project-actions">
+
+              {/* GitHub */}
+              <a
+                href="https://github.com/ajayrathodddd/rathod-ecommerce-platform"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                GitHub →
+              </a>
+
+              {/* Live Demo */}
+              <a
+                href="https://rathod-ecommerce-frontend.onrender.com/login"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Live Demo →
+              </a>
+
+            </div>
           </article>
 
-          {/* PROJECT 3 */}
+          {/* ================= PROJECT 3 ================= */}
           <article className="project-card">
             <span>03</span>
+
             <h3>Social Media App</h3>
 
             <p>
@@ -248,28 +297,48 @@ function App() {
               React.js · Node.js · Express.js · MongoDB
             </div>
 
-            <a
-              href="https://github.com/ajayrathodddd/MEJOR-PROJECT_2"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
+            <div className="project-actions">
+
+              {/* GitHub */}
+              <a
+                href="https://github.com/ajayrathodddd/MEJOR-PROJECT_2"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                GitHub →
+              </a>
+
+              {/* Live Demo */}
+              <a
+                href="https://social-media-app-frontend-tuie.onrender.com"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Live Demo →
+              </a>
+
+            </div>
           </article>
+
         </div>
       </section>
+
       {/* ================= RESUME ================= */}
       <section id="resume" className="resume-section">
         <p className="section-label">04 — RESUME</p>
 
         <div className="resume-content">
           <h2>My Resume</h2>
+
           <p>
             View or download my resume to learn more about my skills, projects,
             education, and certifications.
           </p>
+
           <div className="resume-actions">
+
             {/* VIEW RESUME */}
             <a
               href="/resume.pdf"
@@ -288,9 +357,11 @@ function App() {
             >
               Download Resume
             </a>
+
           </div>
         </div>
       </section>
+
       {/* ================= CERTIFICATIONS ================= */}
       <section id="certifications" className="section">
         <p className="section-label">05 — CERTIFICATIONS</p>
@@ -298,6 +369,7 @@ function App() {
         <h2>Learning & certifications.</h2>
 
         <div className="certifications">
+
           {/* 1. FULL STACK */}
           <div className="certificate-card">
             <h3>Full Stack Development Course</h3>
@@ -316,7 +388,9 @@ function App() {
 
           {/* 2. CHATGPT FOR EVERYONE */}
           <div className="certificate-card">
-            <h3>ChatGPT for Everyone – Generative AI & Prompt Engineering</h3>
+            <h3>
+              ChatGPT for Everyone – Generative AI & Prompt Engineering
+            </h3>
             <p>GUVI | HCL</p>
             <span>Generative AI & Prompt Engineering</span>
 
@@ -411,6 +485,7 @@ function App() {
               View Certificate →
             </a>
           </div>
+
         </div>
       </section>
 
@@ -423,9 +498,13 @@ function App() {
         <div className="education-card">
           <h3>Ghousia College of Engineering</h3>
 
-          <p>Bachelor of Engineering (B.E.) — Computer Science & Engineering</p>
+          <p>
+            Bachelor of Engineering (B.E.) — Computer Science & Engineering
+          </p>
 
-          <p>Affiliated to Visvesvaraya Technological University (VTU)</p>
+          <p>
+            Affiliated to Visvesvaraya Technological University (VTU)
+          </p>
 
           <p>Bengaluru, Karnataka, India</p>
 
@@ -440,8 +519,8 @@ function App() {
         <h2>Let's build something useful.</h2>
 
         <p>
-          I'm interested in full-stack development, AI-powered applications and
-          software development opportunities.
+          I'm interested in full-stack development, AI-powered applications
+          and software development opportunities.
         </p>
 
         <a href="mailto:ajayrathodddd1@gmail.com" className="primary-btn">
@@ -452,6 +531,7 @@ function App() {
       {/* ================= FOOTER ================= */}
       <footer>
         <p>© 2026 Ajay Ravi Rathod</p>
+
         <div>
           <a
             href="https://github.com/ajayrathodddd"
@@ -469,7 +549,9 @@ function App() {
             LinkedIn
           </a>
 
-          <a href="mailto:ajayrathodddd1@gmail.com">Email</a>
+          <a href="mailto:ajayrathodddd1@gmail.com">
+            Email
+          </a>
         </div>
       </footer>
     </div>
@@ -477,3 +559,4 @@ function App() {
 }
 
 export default App;
+

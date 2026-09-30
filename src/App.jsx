@@ -1,4 +1,3 @@
-
 function App() {
   return (
     <div className="portfolio">
@@ -12,13 +11,10 @@ function App() {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#certifications">Certifications</a>
           <a href="#education">Education</a>
           <a href="#resume">Resume</a>
-          <a href="#certifications">Certifications</a>
-          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </div>
 
@@ -36,7 +32,8 @@ function App() {
       <main id="home" className="hero">
         <div className="hero-content">
           <div className="availability">
-            <span></span>Available for opportunities
+            <span></span>
+            Available for opportunities
           </div>
 
           <p className="hero-small">✦ Full-Stack Developer</p>
@@ -200,7 +197,6 @@ function App() {
         <h2>Featured projects.</h2>
 
         <div className="projects-grid">
-
           {/* ================= PROJECT 1 ================= */}
           <article className="project-card featured">
             <span>01</span>
@@ -209,8 +205,8 @@ function App() {
 
             <p>
               AI-powered career development platform designed to help users
-              with career preparation, resume analysis, job matching, skill-gap
-              analysis, learning roadmaps and interview preparation.
+              with career preparation, resume analysis, job matching,
+              skill-gap analysis, learning roadmaps and interview preparation.
             </p>
 
             <div className="tech">
@@ -218,8 +214,6 @@ function App() {
             </div>
 
             <div className="project-actions">
-
-              {/* GitHub */}
               <a
                 href="https://github.com/ajayrathodddd/AI-CareerPilot"
                 target="_blank"
@@ -229,7 +223,6 @@ function App() {
                 GitHub →
               </a>
 
-              {/* Live Demo */}
               <a
                 href="https://ai-careerpilot-ochre.vercel.app/"
                 target="_blank"
@@ -238,7 +231,6 @@ function App() {
               >
                 Live Demo →
               </a>
-
             </div>
           </article>
 
@@ -258,8 +250,6 @@ function App() {
             </div>
 
             <div className="project-actions">
-
-              {/* GitHub */}
               <a
                 href="https://github.com/ajayrathodddd/rathod-ecommerce-platform"
                 target="_blank"
@@ -269,7 +259,6 @@ function App() {
                 GitHub →
               </a>
 
-              {/* Live Demo */}
               <a
                 href="https://rathod-ecommerce-frontend.onrender.com/login"
                 target="_blank"
@@ -278,7 +267,6 @@ function App() {
               >
                 Live Demo →
               </a>
-
             </div>
           </article>
 
@@ -298,8 +286,6 @@ function App() {
             </div>
 
             <div className="project-actions">
-
-              {/* GitHub */}
               <a
                 href="https://github.com/ajayrathodddd/MEJOR-PROJECT_2"
                 target="_blank"
@@ -309,7 +295,6 @@ function App() {
                 GitHub →
               </a>
 
-              {/* Live Demo */}
               <a
                 href="https://social-media-app-frontend-tuie.onrender.com"
                 target="_blank"
@@ -318,10 +303,8 @@ function App() {
               >
                 Live Demo →
               </a>
-
             </div>
           </article>
-
         </div>
       </section>
 
@@ -338,8 +321,6 @@ function App() {
           </p>
 
           <div className="resume-actions">
-
-            {/* VIEW RESUME */}
             <a
               href="/resume.pdf"
               target="_blank"
@@ -349,7 +330,6 @@ function App() {
               View Resume
             </a>
 
-            {/* DOWNLOAD RESUME */}
             <a
               href="/resume.pdf"
               download="Ajay_Ravi_Rathod_Resume.pdf"
@@ -357,7 +337,6 @@ function App() {
             >
               Download Resume
             </a>
-
           </div>
         </div>
       </section>
@@ -369,8 +348,6 @@ function App() {
         <h2>Learning & certifications.</h2>
 
         <div className="certifications">
-
-          {/* 1. FULL STACK */}
           <div className="certificate-card">
             <h3>Full Stack Development Course</h3>
             <p>GUVI | HCL</p>
@@ -386,7 +363,6 @@ function App() {
             </a>
           </div>
 
-          {/* 2. CHATGPT FOR EVERYONE */}
           <div className="certificate-card">
             <h3>
               ChatGPT for Everyone – Generative AI & Prompt Engineering
@@ -404,7 +380,6 @@ function App() {
             </a>
           </div>
 
-          {/* 3. AI PORTFOLIO ADVISOR */}
           <div className="certificate-card">
             <h3>AI-Powered Portfolio Advisor Using JavaScript</h3>
             <p>GUVI | HCL</p>
@@ -420,7 +395,6 @@ function App() {
             </a>
           </div>
 
-          {/* 4. GENERATIVE AI */}
           <div className="certificate-card">
             <h3>
               Generative AI Course: Build AI Apps with LLMs & Generative Models
@@ -438,7 +412,6 @@ function App() {
             </a>
           </div>
 
-          {/* 5. AI TEXT ASSISTANT */}
           <div className="certificate-card">
             <h3>AI-Powered Text Assistant Using React.js</h3>
             <p>GUVI | HCL</p>
@@ -454,7 +427,6 @@ function App() {
             </a>
           </div>
 
-          {/* 6. JAVASCRIPT */}
           <div className="certificate-card">
             <h3>JavaScript Certificate</h3>
             <p>GUVI | HCL</p>
@@ -470,7 +442,6 @@ function App() {
             </a>
           </div>
 
-          {/* 7. OPENAI API */}
           <div className="certificate-card">
             <h3>Hands-On with OpenAI API Using React.js</h3>
             <p>GUVI | HCL</p>
@@ -485,7 +456,6 @@ function App() {
               View Certificate →
             </a>
           </div>
-
         </div>
       </section>
 
@@ -523,7 +493,10 @@ function App() {
           and software development opportunities.
         </p>
 
-        <a href="mailto:ajayrathodddd1@gmail.com" className="primary-btn">
+        <a
+          href="mailto:ajayrathodddd1@gmail.com"
+          className="primary-btn"
+        >
           Email Me →
         </a>
       </section>
@@ -559,4 +532,3 @@ function App() {
 }
 
 export default App;
-

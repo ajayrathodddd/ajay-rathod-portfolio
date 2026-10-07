@@ -1,3 +1,4 @@
+
 function App() {
   return (
     <div className="portfolio">
@@ -36,18 +37,23 @@ function App() {
             Available for opportunities
           </div>
 
-          <p className="hero-small">✦ Full-Stack Developer</p>
+          <p className="hero-small">
+            ✦ Full-Stack Developer | AI-Focused Software Developer
+          </p>
 
           <h1>
-            Building modern
+            I build
             <br />
-            <span>web & AI</span> experiences.
+            <span>full-stack & AI</span>
+            <br />
+            applications.
           </h1>
 
           <p className="hero-description">
-            I'm Ajay Ravi Rathod, a Full-Stack Developer focused on building
-            practical web applications and AI-powered solutions using modern
-            technologies.
+            I'm Ajay Ravi Rathod, a Computer Science & Engineering student and
+            Full-Stack Developer focused on building practical web applications
+            and AI-powered software using React.js, Node.js, Python, FastAPI,
+            MongoDB, and modern AI technologies.
           </p>
 
           <div className="hero-buttons">
@@ -197,17 +203,25 @@ function App() {
         <h2>Featured projects.</h2>
 
         <div className="projects-grid">
-          {/* ================= PROJECT 1 ================= */}
+          {/* ================= AI CAREERPILOT ================= */}
           <article className="project-card featured">
-            <span>01</span>
+            <span>01 · AI PLATFORM</span>
 
             <h3>AI CareerPilot</h3>
 
             <p>
-              AI-powered career development platform designed to help users
-              with career preparation, resume analysis, job matching,
-              skill-gap analysis, learning roadmaps and interview preparation.
+              An AI-powered career platform that helps users analyze resumes,
+              identify skill gaps, match with suitable jobs, build learning
+              roadmaps, and prepare for technical interviews.
             </p>
+
+            <div className="project-highlights">
+              <span>Resume Analysis</span>
+              <span>Job Matching</span>
+              <span>Skill Gap Analysis</span>
+              <span>Learning Roadmap</span>
+              <span>Interview Preparation</span>
+            </div>
 
             <div className="tech">
               React.js · Node.js · Express.js · MongoDB · Generative AI
@@ -220,7 +234,7 @@ function App() {
                 rel="noreferrer"
                 className="project-link"
               >
-                GitHub →
+                View GitHub →
               </a>
 
               <a
@@ -234,16 +248,24 @@ function App() {
             </div>
           </article>
 
-          {/* ================= PROJECT 2 ================= */}
+          {/* ================= E-COMMERCE ================= */}
           <article className="project-card">
-            <span>02</span>
+            <span>02 · E-COMMERCE</span>
 
             <h3>Rathod E-Commerce Platform</h3>
 
             <p>
-              Full-stack e-commerce application with product browsing,
-              shopping cart, checkout and order-management workflows.
+              A full-stack e-commerce platform with product browsing, cart
+              management, checkout workflows, authentication and order
+              management.
             </p>
+
+            <div className="project-highlights">
+              <span>Product Catalog</span>
+              <span>Shopping Cart</span>
+              <span>Checkout</span>
+              <span>Orders</span>
+            </div>
 
             <div className="tech">
               React.js · Django · Redux · REST APIs · SQLite
@@ -256,7 +278,7 @@ function App() {
                 rel="noreferrer"
                 className="project-link"
               >
-                GitHub →
+                View GitHub →
               </a>
 
               <a
@@ -270,29 +292,37 @@ function App() {
             </div>
           </article>
 
-          {/* ================= PROJECT 3 ================= */}
+          {/* ================= SOCIAL MEDIA ================= */}
           <article className="project-card">
-            <span>03</span>
+            <span>03 · SOCIAL PLATFORM</span>
 
             <h3>Social Media App</h3>
 
             <p>
-              Full-stack social media application built with a React frontend,
-              Node.js and Express backend, and MongoDB database.
+              A full-stack social media application with user profiles, posts,
+              likes, comments, sharing and real-time application features.
             </p>
 
+            <div className="project-highlights">
+              <span>User Profiles</span>
+              <span>Posts</span>
+              <span>Likes</span>
+              <span>Comments</span>
+              <span>Sharing</span>
+            </div>
+
             <div className="tech">
-              React.js · Node.js · Express.js · MongoDB
+              React.js · Node.js · Express.js · MongoDB · Socket.IO
             </div>
 
             <div className="project-actions">
               <a
-                href="https://github.com/ajayrathodddd/MEJOR-PROJECT_2"
+                href="https://github.com/ajayrathodddd/Social-Media-App"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
               >
-                GitHub →
+                View GitHub →
               </a>
 
               <a
@@ -364,9 +394,7 @@ function App() {
           </div>
 
           <div className="certificate-card">
-            <h3>
-              ChatGPT for Everyone – Generative AI & Prompt Engineering
-            </h3>
+            <h3>ChatGPT for Everyone – Generative AI & Prompt Engineering</h3>
             <p>GUVI | HCL</p>
             <span>Generative AI & Prompt Engineering</span>
 
@@ -466,14 +494,10 @@ function App() {
         <h2>Education.</h2>
 
         <div className="education-card">
-          <h3>Ghousia College of Engineering</h3>
+          <h3>Visvesvaraya Technological University (VTU)</h3>
 
           <p>
             Bachelor of Engineering (B.E.) — Computer Science & Engineering
-          </p>
-
-          <p>
-            Affiliated to Visvesvaraya Technological University (VTU)
           </p>
 
           <p>Bengaluru, Karnataka, India</p>
@@ -489,14 +513,11 @@ function App() {
         <h2>Let's build something useful.</h2>
 
         <p>
-          I'm interested in full-stack development, AI-powered applications
-          and software development opportunities.
+          I'm interested in full-stack development, AI-powered applications and
+          software development opportunities.
         </p>
 
-        <a
-          href="mailto:ajayrathodddd1@gmail.com"
-          className="primary-btn"
-        >
+        <a href="mailto:ajayrathodddd1@gmail.com" className="primary-btn">
           Email Me →
         </a>
       </section>
@@ -522,9 +543,7 @@ function App() {
             LinkedIn
           </a>
 
-          <a href="mailto:ajayrathodddd1@gmail.com">
-            Email
-          </a>
+          <a href="mailto:ajayrathodddd1@gmail.com">Email</a>
         </div>
       </footer>
     </div>
@@ -532,3 +551,4 @@ function App() {
 }
 
 export default App;
+

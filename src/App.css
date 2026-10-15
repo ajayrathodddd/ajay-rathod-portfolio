@@ -302,13 +302,16 @@ a {
    HERO CODE WINDOW
 ========================================================= */
 
+/* =========================================================
+   HERO CODE WINDOW
+========================================================= */
+
 .hero-card {
   position: relative;
 }
 
 .code-window {
   width: 100%;
-
   overflow: hidden;
 
   border: 1px solid rgba(148, 163, 184, 0.12);
@@ -321,9 +324,10 @@ a {
     0 0 60px rgba(14, 165, 233, 0.06);
 }
 
+/* Window header */
+
 .window-top {
   height: 48px;
-
   padding: 0 18px;
 
   display: flex;
@@ -333,7 +337,6 @@ a {
   border-bottom: 1px solid rgba(148, 163, 184, 0.08);
 
   color: #64748b;
-
   font-size: 12px;
 }
 
@@ -345,11 +348,11 @@ a {
 .window-dots span {
   width: 8px;
   height: 8px;
-
   border-radius: 50%;
-
   background: #334155;
 }
+
+/* Code content */
 
 .code-content {
   padding: 30px;
@@ -363,39 +366,43 @@ a {
     monospace;
 
   font-size: 13px;
-
   line-height: 2;
 }
 
 .code-content p {
-  margin-bottom: 4px;
+  margin: 0 0 4px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 .code-content .indent {
   padding-left: 25px;
 }
 
-.purple {
+/* Syntax colors */
+
+.code-content .purple {
   color: #c084fc;
 }
 
-.blue {
+.code-content .blue {
   color: #38bdf8;
 }
 
-.green {
+.code-content .green {
   color: #86efac;
 }
 
-.code-comment {
+.code-content .code-comment {
   margin-top: 20px;
-
   color: #64748b;
+  font-style: italic;
 }
+
+/* Floating icon */
 
 .floating-icon {
   position: absolute;
-
   right: -18px;
   bottom: -18px;
 
@@ -410,7 +417,6 @@ a {
   border-radius: 14px;
 
   background: #0f172a;
-
   color: #38bdf8;
 
   font-family: monospace;
@@ -418,6 +424,28 @@ a {
 
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+  .code-content {
+    padding: 20px 16px;
+    font-size: 11px;
+  }
+
+  .code-content .indent {
+    padding-left: 16px;
+  }
+
+  .floating-icon {
+    right: -8px;
+    bottom: -12px;
+
+    width: 48px;
+    height: 48px;
+  }
+}
+
 
 /* =========================================================
    GENERAL SECTIONS
@@ -1166,7 +1194,22 @@ footer a:hover {
   }
 
   .nav-links {
-    display: none;
+    display: flex;
+    order: 3;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    gap: 18px;
+    overflow-x: auto;
+    padding: 8px 0 2px;
+    scrollbar-width: thin;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 12px;
   }
 
   .nav-github {
@@ -1380,4 +1423,16 @@ footer a:hover {
   .project-card::before {
     height: 140px;
   }
+}
+
+/* Small usability improvements */
+section[id],
+main[id] {
+  scroll-margin-top: 90px;
+}
+
+a:focus-visible {
+  outline: 2px solid #7dd3fc;
+  outline-offset: 4px;
+  border-radius: 4px;
 }
